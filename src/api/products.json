@@ -4,69 +4,69 @@
     "name": "glucometer",
     "price": 25.99,
     "category": "Electronics",
-    "image": "../../public/images/glucometer.webp"
+    "image": "/images/glucometer.webp"
   },
   {
     "id": 2,
     "name": "T-shirt",
     "price": 15.99,
     "category": "Clothing",
-    "image": "../../public/images/T-shirt.webp"
+    "image": "/images/T-shirt.webp"
   },
   {
     "id": 3,
     "name": "LED Tv",
     "price": 8000,
     "category": "Accessories",
-    "image": "../../public/images/SmartTv.webp"
+    "image": "/images/SmartTv.webp"
   },
   {
     "id": 4,
     "name": "V-neck",
     "price": 8000,
     "category": "Clothing",
-    "image": "../../public/images/v-neck-1.png"
+    "image": "/images/v-neck-1.png"
   },
   {
     "id": 5,
     "name": "Watch",
     "price": 8000,
     "category": "Accessories",
-    "image": "../../public/images/watch.webp"
+    "image": "/images/watch.webp"
   },
   {
     "id": 6,
     "name": "glucometer",
     "price": 25.99,
     "category": "Electronics",
-    "image": "../../public/images/glucometer.webp"
+    "image": "/images/glucometer.webp"
   },
   {
     "id": 7,
     "name": "T-shirt",
     "price": 15.99,
     "category": "Clothing",
-    "image": "../../public/images/T-shirt.webp"
+    "image": "/images/T-shirt.webp"
   },
   {
     "id": 8,
     "name": "LED Tv",
     "price": 8000,
     "category": "Accessories",
-    "image": "../../public/images/SmartTv.webp"
+    "image": "/images/SmartTv.webp"
   },
   {
     "id": 9,
     "name": "V-neck",
     "price": 8000,
     "category": "Clothing",
-    "image": "../../public/images/v-neck-1.png"
+    "image": "/images/v-neck-1.png"
   },
   {
     "id": 10,
     "name": "Watch",
     "price": 8000,
     "category": "Accessories",
-    "image": "../../public/images/watch.webp"
+    "image": "/images/watch.webp"
   }
 ]
