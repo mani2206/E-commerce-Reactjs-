@@ -1,0 +1,106 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800&display=swap");
+
+// Start : Includes 
+//======================================//
+@import "./includes/variables";
+// @import "./mixin/breakpoints";
+@import "./includes/header";
+@import "./includes/footer";
+
+
+.img-wrapper {  
+    overflow: hidden; 
+    
+  }
+  
+  // .inner-img {
+  //   transition: 0.3s;
+  // }
+  
+  .img-wrapper:hover {
+    transform: scale(1.0);
+    transition: 0.3s;
+  }
+
+
+  .cart-button {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .cart-count-badge {
+    position: absolute;
+    top: -2px;
+    right: -10px;
+    background-color: red;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 50%;
+    padding: 2px 6px;
+  }
+
+
+  .ripple {
+    background-position: center;
+    transition: background 0.8s ease-out; /* Added easing for smoother transition */
+  }
+  
+  .ripple:hover {
+    background: #47a7f5 radial-gradient(circle, transparent 1%, #47a7f5 1%) center/15000%;
+  }
+  
+  .ripple:active {
+    background-color: #6eb9f7;
+    background-size: 100%; /* Ensures the ripple effect covers the element */
+    transition: background 0s; /* Immediate effect on click */
+  }
+
+  .buttons {
+    border: none;
+    border-radius: 2px;
+    padding: 12px 18px;
+    font-size: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: white;
+    background-color: #2196f3;
+    box-shadow: 0 0 4px #999;
+    outline: none;
+  }
+
+
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+      width: 50% !important;
+    // max-width: 90%;
+  }
+  
+  .close-button {
+    background: #ff5f5f;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 10px;
+  }
+  
+  
+  
